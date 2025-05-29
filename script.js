@@ -1,6 +1,6 @@
 // rhis function is for download the resume pdf
 function handleResume() {
-  var downloadUrl = "./assets/FrontendResume7.pdf";
+  var downloadUrl = "./assets/resume.pdf";
   var a = document.createElement("a");
   a.href = downloadUrl;
   a.download = "resume.pdf";
